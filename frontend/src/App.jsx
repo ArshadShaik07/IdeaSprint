@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 /* ---------- CONFIG ---------- */
-const POPULAR_SKILLS = ["Python", "C", "Java", "C++", "C#", "JavaScript", "Visual Basic", "SQL", "Delphi", "R", "Perl", "Fortran", "Rust", "MATLAB", "PHP", "Go", "Scratch", "Ada", "Assembly", "Kotlin", "COBOL", "Swift", "Prolog", "SAS", "Dart", "Ruby", "Julia", "Objective-C", "Lua", "Lisp"];
+const POPULAR_SKILLS = ["Python", "C", "Java", "C++", "C#", "JavaScript", "Visual Basic", "SQL", "Delphi", "R", "Perl", "Fortran", "Rust", "MATLAB", "PHP", "Go", "Scratch", "Ada", "Assembly", "Kotlin", "COBOL", "Swift", "Prolog", "SAS", "Dart", "Ruby", "Julia", "Objective-C", "Lua", "Lisp","html","css"];
 
 const SUGGESTED_SKILLS = {
   "Web Development": ["TypeScript", "Next.js", "REST APIs"],
@@ -70,12 +70,14 @@ function App() {
         })
       });
 
+
       const data = await response.json();
       if (!response.ok) setError(data.error || "Matching failed.");
       else {
         const sorted = [...data].sort((a, b) => b.score - a.score);
         setResults(sorted);
       }
+      console.log(results)
     } catch {
       setError("Backend not running.");
     }
@@ -322,7 +324,7 @@ function App() {
                 {/* Judge Mode Display */}
                 {judgeMode && (
                   <div className="mt-4 text-xs font-mono bg-[#1e293b] text-[#cbd5e1] p-3 rounded-lg border border-[#334155] shadow-inner">
-                    Algorithm_Weight: Skill_Overlap(0.7) + Domain_Relevance(0.3)
+                     Algorithm_Weight: Skill_Overlap(0.7) + Domain_Relevance(0.3)
                   </div>
                 )}
 
