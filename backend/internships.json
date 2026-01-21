@@ -1,14 +1,122 @@
 [
   {
     "role": "Web Developer Intern",
-    "required_skills": ["React", "JavaScript"],
-    "optional_skills": ["SQL"],
-    "domain": "Web Development"
+    "required_skills": ["HTML", "CSS", "JavaScript"],
+    "optional_skills": ["React", "Git"],
+    "domain": "Web Development",
+    "match_logic": {
+      "required_weight": 0.7,
+      "optional_weight": 0.3,
+      "minimum_match_score": 0.6,
+      "explainable": true
+    }
+  },
+  {
+    "role": "Frontend Developer Intern",
+    "required_skills": ["JavaScript", "React"],
+    "optional_skills": ["Tailwind CSS", "Redux"],
+    "domain": "Web Development",
+    "match_logic": {
+      "required_weight": 0.75,
+      "optional_weight": 0.25,
+      "minimum_match_score": 0.65,
+      "explainable": true
+    }
+  },
+  {
+    "role": "Backend Developer Intern",
+    "required_skills": ["Node.js", "Express"],
+    "optional_skills": ["MongoDB", "REST APIs"],
+    "domain": "Web Development",
+    "match_logic": {
+      "required_weight": 0.7,
+      "optional_weight": 0.3,
+      "minimum_match_score": 0.6,
+      "explainable": true
+    }
+  },
+  {
+    "role": "Full Stack Developer Intern",
+    "required_skills": ["React", "Node.js", "JavaScript"],
+    "optional_skills": ["PostgreSQL", "Docker"],
+    "domain": "Web Development",
+    "match_logic": {
+      "required_weight": 0.75,
+      "optional_weight": 0.25,
+      "minimum_match_score": 0.7,
+      "explainable": true
+    }
   },
   {
     "role": "AI Intern",
-    "required_skills": ["Python", "ML"],
-    "optional_skills": ["TensorFlow"],
-    "domain": "AI"
+    "required_skills": ["Python", "Machine Learning"],
+    "optional_skills": ["TensorFlow", "PyTorch"],
+    "domain": "Artificial Intelligence",
+    "match_logic": {
+      "required_weight": 0.8,
+      "optional_weight": 0.2,
+      "minimum_match_score": 0.65,
+      "explainable": true
+    }
+  },
+  {
+    "role": "Data Science Intern",
+    "required_skills": ["Python", "Statistics", "Pandas"],
+    "optional_skills": ["NumPy", "Scikit-learn"],
+    "domain": "Data Science",
+    "match_logic": {
+      "required_weight": 0.75,
+      "optional_weight": 0.25,
+      "minimum_match_score": 0.65,
+      "explainable": true
+    }
+  },
+  {
+    "role": "Machine Learning Intern",
+    "required_skills": ["Python", "ML Algorithms"],
+    "optional_skills": ["Deep Learning", "Keras"],
+    "domain": "Artificial Intelligence",
+    "match_logic": {
+      "required_weight": 0.8,
+      "optional_weight": 0.2,
+      "minimum_match_score": 0.7,
+      "explainable": true
+    }
+  },
+  {
+    "role": "Mobile App Developer Intern",
+    "required_skills": ["Java", "Android SDK"],
+    "optional_skills": ["Kotlin", "Firebase"],
+    "domain": "Mobile Development",
+    "match_logic": {
+      "required_weight": 0.7,
+      "optional_weight": 0.3,
+      "minimum_match_score": 0.6,
+      "explainable": true
+    }
+  },
+  {
+    "role": "UI/UX Design Intern",
+    "required_skills": ["Figma", "Design Principles"],
+    "optional_skills": ["User Research", "Prototyping"],
+    "domain": "Design",
+    "match_logic": {
+      "required_weight": 0.65,
+      "optional_weight": 0.35,
+      "minimum_match_score": 0.6,
+      "explainable": true
+    }
+  },
+  {
+    "role": "DevOps Intern",
+    "required_skills": ["Linux", "Git"],
+    "optional_skills": ["Docker", "CI/CD"],
+    "domain": "DevOps",
+    "match_logic": {
+      "required_weight": 0.7,
+      "optional_weight": 0.3,
+      "minimum_match_score": 0.65,
+      "explainable": true
+    }
   }
 ]
