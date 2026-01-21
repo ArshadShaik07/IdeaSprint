@@ -62,7 +62,7 @@ function App() {
     setResults([]);
 
     try {
-      const response = await fetch("http://localhost:3000/match", {
+      const response = await fetch("https://ideasprint-2.onrender.com/match", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
