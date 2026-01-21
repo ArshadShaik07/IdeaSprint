@@ -1,0 +1,14 @@
+[
+  {
+    "role": "Web Developer Intern",
+    "required_skills": ["React", "JavaScript"],
+    "optional_skills": ["SQL"],
+    "domain": "Web Development"
+  },
+  {
+    "role": "AI Intern",
+    "required_skills": ["Python", "ML"],
+    "optional_skills": ["TensorFlow"],
+    "domain": "AI"
+  }
+]
