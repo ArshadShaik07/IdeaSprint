@@ -34,7 +34,7 @@ export default function Chatbot() {
     if (msg.includes("domain"))
       return "Choose the domain you’re most interested in for better results.";
 
-    return "I can help you understand scores, skills, and matches 🙂";
+    return "I can help you understand scores, skills, and matches 😁";
   };
 
   return (
@@ -44,7 +44,7 @@ export default function Chatbot() {
         onClick={() => setOpen(!open)}
         className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-gradient-to-br from-[#4f46e5] to-[#7c3aed] text-white font-bold shadow-xl hover:scale-105 transition"
       >
-        💬
+        🤖
       </button>
 
       {/* Chat Window */}
