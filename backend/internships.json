@@ -1,8 +1,8 @@
 [
   {
     "role": "Web Developer Intern",
-    "required_skills": ["HTML", "CSS", "JavaScript"],
-    "optional_skills": ["React", "Git"],
+    "required_skills": ["JavaScript", "SQL"],
+    "optional_skills": ["PHP", "Ruby"],
     "domain": "Web Development",
     "match_logic": {
       "required_weight": 0.7,
@@ -13,8 +13,8 @@
   },
   {
     "role": "Frontend Developer Intern",
-    "required_skills": ["JavaScript", "React"],
-    "optional_skills": ["Tailwind CSS", "Redux"],
+    "required_skills": ["JavaScript", "C#"],
+    "optional_skills": ["Visual Basic"],
     "domain": "Web Development",
     "match_logic": {
       "required_weight": 0.75,
@@ -25,33 +25,21 @@
   },
   {
     "role": "Backend Developer Intern",
-    "required_skills": ["Node.js", "Express"],
-    "optional_skills": ["MongoDB", "REST APIs"],
+    "required_skills": ["Java", "SQL"],
+    "optional_skills": ["Go", "PHP"],
     "domain": "Web Development",
     "match_logic": {
       "required_weight": 0.7,
       "optional_weight": 0.3,
-      "minimum_match_score": 0.6,
-      "explainable": true
-    }
-  },
-  {
-    "role": "Full Stack Developer Intern",
-    "required_skills": ["React", "Node.js", "JavaScript"],
-    "optional_skills": ["PostgreSQL", "Docker"],
-    "domain": "Web Development",
-    "match_logic": {
-      "required_weight": 0.75,
-      "optional_weight": 0.25,
-      "minimum_match_score": 0.7,
+      "minimum_match_score": 0.65,
       "explainable": true
     }
   },
   {
     "role": "AI Intern",
-    "required_skills": ["Python", "Machine Learning"],
-    "optional_skills": ["TensorFlow", "PyTorch"],
-    "domain": "Artificial Intelligence",
+    "required_skills": ["Python", "R"],
+    "optional_skills": ["MATLAB", "Julia"],
+    "domain": "AI",
     "match_logic": {
       "required_weight": 0.8,
       "optional_weight": 0.2,
@@ -60,9 +48,21 @@
     }
   },
   {
+    "role": "Machine Learning Intern",
+    "required_skills": ["Python", "Julia"],
+    "optional_skills": ["MATLAB", "R"],
+    "domain": "AI",
+    "match_logic": {
+      "required_weight": 0.8,
+      "optional_weight": 0.2,
+      "minimum_match_score": 0.7,
+      "explainable": true
+    }
+  },
+  {
     "role": "Data Science Intern",
-    "required_skills": ["Python", "Statistics", "Pandas"],
-    "optional_skills": ["NumPy", "Scikit-learn"],
+    "required_skills": ["Python", "SQL"],
+    "optional_skills": ["R", "SAS"],
     "domain": "Data Science",
     "match_logic": {
       "required_weight": 0.75,
@@ -72,22 +72,10 @@
     }
   },
   {
-    "role": "Machine Learning Intern",
-    "required_skills": ["Python", "ML Algorithms"],
-    "optional_skills": ["Deep Learning", "Keras"],
-    "domain": "Artificial Intelligence",
-    "match_logic": {
-      "required_weight": 0.8,
-      "optional_weight": 0.2,
-      "minimum_match_score": 0.7,
-      "explainable": true
-    }
-  },
-  {
-    "role": "Mobile App Developer Intern",
-    "required_skills": ["Java", "Android SDK"],
-    "optional_skills": ["Kotlin", "Firebase"],
-    "domain": "Mobile Development",
+    "role": "Data Analyst Intern",
+    "required_skills": ["SQL", "R"],
+    "optional_skills": ["Python", "SAS"],
+    "domain": "Data Science",
     "match_logic": {
       "required_weight": 0.7,
       "optional_weight": 0.3,
@@ -96,26 +84,38 @@
     }
   },
   {
-    "role": "UI/UX Design Intern",
-    "required_skills": ["Figma", "Design Principles"],
-    "optional_skills": ["User Research", "Prototyping"],
-    "domain": "Design",
+    "role": "Embedded Systems Intern",
+    "required_skills": ["C", "C++"],
+    "optional_skills": ["Assembly"],
+    "domain": "Electronics",
     "match_logic": {
-      "required_weight": 0.65,
-      "optional_weight": 0.35,
-      "minimum_match_score": 0.6,
-      "explainable": true
-    }
-  },
-  {
-    "role": "DevOps Intern",
-    "required_skills": ["Linux", "Git"],
-    "optional_skills": ["Docker", "CI/CD"],
-    "domain": "DevOps",
-    "match_logic": {
-      "required_weight": 0.7,
-      "optional_weight": 0.3,
+      "required_weight": 0.75,
+      "optional_weight": 0.25,
       "minimum_match_score": 0.65,
+      "explainable": true
+    }
+  },
+  {
+    "role": "IoT Intern",
+    "required_skills": ["C", "Python"],
+    "optional_skills": ["Rust"],
+    "domain": "Electronics",
+    "match_logic": {
+      "required_weight": 0.75,
+      "optional_weight": 0.25,
+      "minimum_match_score": 0.65,
+      "explainable": true
+    }
+  },
+  {
+    "role": "Software Engineering Intern",
+    "required_skills": ["Java", "C++"],
+    "optional_skills": ["Python", "Go"],
+    "domain": "General Software",
+    "match_logic": {
+      "required_weight": 0.7,
+      "optional_weight": 0.3,
+      "minimum_match_score": 0.6,
       "explainable": true
     }
   }
