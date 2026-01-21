@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Chatbot from "./chatbot";
 
 /* ---------- CONFIG ---------- */
 const POPULAR_SKILLS = ["Python", "C", "Java", "C++", "C#", "JavaScript", "Visual Basic", "SQL", "Delphi", "R", "Perl", "Fortran", "Rust", "MATLAB", "PHP", "Go", "Scratch", "Ada", "Assembly", "Kotlin", "COBOL", "Swift", "Prolog", "SAS", "Dart", "Ruby", "Julia", "Objective-C", "Lua", "Lisp","html","css"];
@@ -347,6 +348,7 @@ function App() {
         )}
 
       </main>
+      <Chatbot/>
     </div>
   );
 }
